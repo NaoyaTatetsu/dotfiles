@@ -4,7 +4,7 @@ apps:
 	sh scripts/build_apps.sh
 	@echo "end installing brew apps..."
 
-.PHONE: system_preference
+.PHONY: system_preference
 system_preference:
 	@echo "start setting system preferences..."
 	sh scripts/system_preferences.sh
