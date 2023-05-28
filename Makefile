@@ -1,7 +1,7 @@
 .PHONY: apps
 apps:
 	@echo "start installing brew apps..."
-	sh scripts/build_apps.sh
+	sh scripts/brew_app.sh
 	@echo "end installing brew apps..."
 
 .PHONY: system_preference

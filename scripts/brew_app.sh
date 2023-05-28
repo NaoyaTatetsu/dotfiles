@@ -11,3 +11,5 @@ brew install --cask zoom
 brew install --cask google-japanese-ime
 brew install --cask slack
 brew install --cask docker
+brew install tree
+brew install asdf
