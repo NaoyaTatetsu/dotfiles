@@ -13,3 +13,4 @@ brew install --cask slack
 brew install --cask docker
 brew install tree
 brew install asdf
+brew install --cask mongodb-compass
