@@ -15,3 +15,4 @@ brew install tree
 brew install asdf
 brew install --cask mongodb-compass
 brew install jq
+brew install --cask meetingbar
