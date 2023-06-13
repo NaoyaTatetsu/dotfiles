@@ -14,3 +14,4 @@ brew install --cask docker
 brew install tree
 brew install asdf
 brew install --cask mongodb-compass
+brew install jq
