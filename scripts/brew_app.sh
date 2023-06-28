@@ -3,6 +3,7 @@
 sudo -v
 
 brew install asdf
+brew install k9s
 brew install tree
 brew install jq
 
