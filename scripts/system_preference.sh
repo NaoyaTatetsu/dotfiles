@@ -59,17 +59,17 @@ defaults write NSGlobalDomain "AppleInterfaceStyle" -string "Dark"
 # バッテリー残量のパーセンテージ表示
 defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 
-# 設定の反映---------------------------------------------------------------------------------------------------------
-killall Dock
-killall Finder
-killall SystemUIServer
-
 # Launchpad--------------------------------------------------------------------------------------------------------
 # 表示件数を8x10にする
 defaults write com.apple.dock springboard-rows -int 8
 defaults write com.apple.dock springboard-columns -int 10
 # Reset LaunchPad (but not regular)
-defaults write com.apple.dock ResetLaunchPad -bool true
+defaults write com.apple.dock ResetLaunchPad -bool tru
+
+# 設定の反映---------------------------------------------------------------------------------------------------------
+killall Dock
+killall Finder
+killall SystemUIServer
 
 # End & Reboot---------------------------------------------------------------------------------------------------
 sudo shutdown -r now
