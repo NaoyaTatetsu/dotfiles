@@ -64,7 +64,7 @@ defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 defaults write com.apple.dock springboard-rows -int 8
 defaults write com.apple.dock springboard-columns -int 10
 # Reset LaunchPad (but not regular)
-defaults write com.apple.dock ResetLaunchPad -bool tru
+defaults write com.apple.dock ResetLaunchPad -bool true
 
 # 設定の反映---------------------------------------------------------------------------------------------------------
 killall Dock
