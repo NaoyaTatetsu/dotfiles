@@ -7,6 +7,7 @@ brew install k9s
 brew install tree
 brew install jq
 
+brew install --cask clipy
 brew install --cask docker
 brew install --cask google-chrome
 brew install --cask google-drive
