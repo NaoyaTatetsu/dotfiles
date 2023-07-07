@@ -1,11 +1,16 @@
+.PHONY: brew
+brew:
+	@echo "Start installing brew..."
+	sh scripts/setup_local.sh
+
 .PHONY: apps
 apps:
-	@echo "start installing brew apps..."
-	sh scripts/brew_app.sh
-	@echo "end installing brew apps..."
+	@echo "Start installing brew apps..."
+	sh scripts/install_brew_app.sh
+	@echo "Completed installing all apps."
 
 .PHONY: system_preference
 system_preference:
-	@echo "start setting system preferences..."
-	sh scripts/system_preferences.sh
-	@echo "end setting system preferences..."
+	@echo "Start setting system preferences..."
+	sh scripts/set_system_preference.sh
+	@echo "Completed setting system preferences."

@@ -1,5 +1,9 @@
 #! /bin/shs
 
+# debug log
+set -e
+
+# 管理者パスワードを前もって聞いておく
 sudo -v
 
 brew install asdf
