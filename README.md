@@ -2,11 +2,11 @@
 
 ## 必須環境
 
-- [Homebrew](https://brew.sh/index_ja)
-- 秘密鍵公開鍵
-- git
-
 ## 実行手順
+brewのインストール
+```
+make setup_local
+```
 
 アプリケーションのインストール
 
@@ -29,10 +29,11 @@ make system_preference
 ## ディレクトリ構造
 
 ```
-dotfiles
-├── Makefile                    ・コマンド
+root
+├── Makefile                        ・・・コマンド
 ├── README.md
 └── scripts
-    ├── brew_app.sh             ・アプリのインストール
-    └── system_preference.sh    ・システム環境設定
+    ├── install_brew_app.sh         ・・・アプリのインストール
+    ├── set_system_preference.sh    ・・・システム環境設定
+    └──  setup_local                ・・・初期設定
 ```

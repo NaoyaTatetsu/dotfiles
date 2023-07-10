@@ -1,5 +1,5 @@
-.PHONY: brew
-brew:
+.PHONY: setup_local
+setup_local:
 	@echo "Start installing brew..."
 	sh scripts/setup_local.sh
 
