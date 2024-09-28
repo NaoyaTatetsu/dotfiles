@@ -10,4 +10,5 @@ defaults write com.apple.dock springboard-columns -int 10
 # Reset LaunchPad (but not regular)
 defaults write com.apple.dock ResetLaunchPad -bool true
 
+# 設定の反映
 killall Dock
