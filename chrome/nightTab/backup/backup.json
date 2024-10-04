@@ -1,1 +1,621 @@
-{"nightTab":true,"version":"7.5.0","state":{"language":"system","layout":{"area":{"header":{"width":70,"justify":"center"},"bookmark":{"width":100,"justify":"center"}},"alignment":"center-center","order":"header-bookmark","direction":"vertical","size":100,"width":70,"padding":44,"gutter":50,"breakpoint":"xl","scrollbar":"auto","title":"NewTab","favicon":"","overscroll":{"active":false,"unblur":false}},"header":{"item":{"justify":"left"},"greeting":{"show":false,"type":"good","custom":"","name":"","size":100,"newLine":false},"transitional":{"show":false,"type":"time-and-date","size":100,"newLine":false},"clock":{"hour":{"show":true,"display":"number"},"minute":{"show":true,"display":"number"},"second":{"show":false,"display":"number"},"separator":{"show":true,"text":""},"meridiem":{"show":false},"hour24":{"show":true},"size":100,"newLine":false},"date":{"day":{"show":false,"display":"word","weekStart":"monday","length":"long"},"date":{"show":true,"display":"number","ordinal":true},"month":{"show":true,"display":"word","length":"short","ordinal":true},"year":{"show":false,"display":"number"},"separator":{"show":true,"text":""},"format":"date-month","size":100,"newLine":false},"search":{"show":true,"width":{"by":"auto","size":30},"engine":{"selected":"google","custom":{"name":"","url":"","queryName":""}},"text":{"justify":"center"},"size":100,"newLine":false,"newTab":false,"string":"p-jihyo.jp"},"order":["clock","date","search"],"edit":false},"bookmark":{"size":50,"url":{"show":false},"line":{"show":false},"shadow":{"show":false},"hoverScale":{"show":true},"orientation":"top","style":"block","newTab":true,"edit":false,"add":false,"show":true,"item":{}},"group":{"area":{"justify":"left"},"order":"header-body","name":{"size":100},"toolbar":{"size":80},"edit":false,"add":false},"toolbar":{"location":"corner","position":"top-right","size":100,"accent":{"show":true},"add":{"show":true},"edit":{"show":true},"newLine":false},"theme":{"color":{"range":{"primary":{"h":219,"s":45}},"contrast":{"start":8,"end":83},"shades":14},"accent":{"hsl":{"h":192,"s":100,"l":50},"rgb":{"r":0,"g":204,"b":255},"random":{"active":false,"style":"light"},"cycle":{"active":false,"speed":300,"step":10}},"font":{"display":{"name":"Dosis","weight":300,"style":"normal"},"ui":{"name":"Inria Sans","weight":300,"style":"normal"}},"background":{"type":"image","color":{"rgb":{"r":0,"g":0,"b":0},"hsl":{"h":0,"s":0,"l":0}},"gradient":{"angle":160,"start":{"hsl":{"h":206,"s":16,"l":40},"rgb":{"r":86,"g":104,"b":118}},"end":{"hsl":{"h":219,"s":28,"l":12},"rgb":{"r":22,"g":28,"b":39}}},"image":{"url":"https://github.com/NaoyaTatetsu/dotfiles/blob/main/chrome/nightTab/images/backgroundImage/twice.jpg?raw=true","blur":0,"opacity":50,"scale":100,"grayscale":0,"accent":0,"vignette":{"opacity":0,"start":90,"end":70}},"video":{"url":"","blur":0,"opacity":100,"scale":100,"grayscale":0,"accent":0,"vignette":{"opacity":0,"start":90,"end":70}}},"opacity":{"general":0},"layout":{"color":{"by":"custom","blur":75,"opacity":5,"hsl":{"h":0,"s":0,"l":0},"rgb":{"r":0,"g":0,"b":0}},"divider":{"size":0}},"header":{"color":{"by":"theme","opacity":10,"hsl":{"h":0,"s":0,"l":0},"rgb":{"r":0,"g":0,"b":0}},"search":{"opacity":45}},"bookmark":{"color":{"by":"theme","opacity":10,"hsl":{"h":0,"s":0,"l":0},"rgb":{"r":0,"g":0,"b":0}},"item":{"border":0,"opacity":45}},"group":{"toolbar":{"opacity":0}},"toolbar":{"opacity":0},"style":"dark","radius":100,"shadow":100,"shade":{"opacity":8,"blur":0},"custom":{"all":[],"edit":false}},"search":false},"bookmark":[{"name":{"text":"BookMark","show":true},"collapse":false,"toolbar":{"size":100,"openAll":{"show":true},"collapse":{"show":true}},"items":[{"url":"https://admin.google.com/AdminHome?hl=ja","display":{"alignment":"center-center","direction":"vertical","order":"visual-name","rotate":0,"translate":{"x":0,"y":0},"gutter":25,"name":{"show":true,"text":"","size":5},"visual":{"show":true,"type":"image","size":93,"letter":{"text":""},"icon":{"name":"","prefix":"","label":""},"image":{"url":"https://raw.githubusercontent.com/NaoyaTatetsu/dotfiles/refs/heads/main/chrome/nightTab/images/icon/googleAdmin.webp"},"shadow":{"size":0}}},"accent":{"by":"theme","hsl":{"h":0,"s":0,"l":0},"rgb":{"r":0,"g":0,"b":0}},"color":{"by":"custom","hsl":{"h":0,"s":0,"l":100},"rgb":{"r":255,"g":255,"b":255},"opacity":100},"background":{"show":false,"type":"image","opacity":100,"image":{"url":""},"video":{"url":""}},"border":0,"shape":{"wide":false,"tall":false},"timestamp":1728050269057},{"url":"https://calendar.google.com/calendar/u/0/r","display":{"alignment":"center-center","direction":"vertical","order":"visual-name","rotate":0,"translate":{"x":0,"y":0},"gutter":25,"name":{"show":true,"text":"","size":7},"visual":{"show":true,"type":"image","size":150,"letter":{"text":""},"icon":{"name":"","prefix":"","label":""},"image":{"url":"https://github.com/NaoyaTatetsu/dotfiles/blob/main/chrome/nightTab/images/icon/googleCalendar.png?raw=true"},"shadow":{"size":0}}},"accent":{"by":"theme","hsl":{"h":0,"s":0,"l":0},"rgb":{"r":0,"g":0,"b":0}},"color":{"by":"custom","hsl":{"h":0,"s":0,"l":100},"rgb":{"r":255,"g":255,"b":255},"opacity":100},"background":{"show":false,"type":"image","opacity":100,"image":{"url":""},"video":{"url":""}},"border":0,"shape":{"wide":false,"tall":false},"timestamp":1728051131962},{"url":"https://drive.google.com/drive/home?dmr=1&ec=wgc-drive-globalnav-goto","display":{"alignment":"center-center","direction":"vertical","order":"visual-name","rotate":0,"translate":{"x":0,"y":0},"gutter":25,"name":{"show":true,"text":"","size":7},"visual":{"show":true,"type":"image","size":95,"letter":{"text":""},"icon":{"name":"","prefix":"","label":""},"image":{"url":"https://github.com/NaoyaTatetsu/dotfiles/blob/main/chrome/nightTab/images/icon/googleDrive.png?raw=true"},"shadow":{"size":0}}},"accent":{"by":"theme","hsl":{"h":0,"s":0,"l":0},"rgb":{"r":0,"g":0,"b":0}},"color":{"by":"custom","hsl":{"h":0,"s":0,"l":100},"rgb":{"r":255,"g":255,"b":255},"opacity":100},"background":{"show":false,"type":"image","opacity":100,"image":{"url":""},"video":{"url":""}},"border":0,"shape":{"wide":false,"tall":false},"timestamp":1728051267561},{"url":"https://mail.google.com/mail/u/0/#inbox","display":{"alignment":"center-center","direction":"vertical","order":"visual-name","rotate":0,"translate":{"x":0,"y":0},"gutter":25,"name":{"show":true,"text":"","size":7},"visual":{"show":true,"type":"image","size":134,"letter":{"text":""},"icon":{"name":"","prefix":"","label":""},"image":{"url":"https://raw.githubusercontent.com/NaoyaTatetsu/dotfiles/refs/heads/main/chrome/nightTab/images/icon/googleMail.webp"},"shadow":{"size":0}}},"accent":{"by":"theme","hsl":{"h":0,"s":0,"l":0},"rgb":{"r":0,"g":0,"b":0}},"color":{"by":"custom","hsl":{"h":0,"s":0,"l":100},"rgb":{"r":255,"g":255,"b":255},"opacity":100},"background":{"show":false,"type":"image","opacity":100,"image":{"url":""},"video":{"url":""}},"border":0,"shape":{"wide":false,"tall":false},"timestamp":1728051364349},{"url":"https://www.amazon.co.jp/?&tag=hydraamazonav-22&ref=pd_sl_7ibq2d37on_e&adgrpid=157529192841&hvpone=&hvptwo=&hvadid=714710030354&hvpos=&hvnetw=g&hvrand=5321128989698208024&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1009307&hvtargid=kwd-10573980&hydadcr=27922_14794663&gad_source=1","display":{"alignment":"center-center","direction":"vertical","order":"visual-name","rotate":0,"translate":{"x":0,"y":0},"gutter":25,"name":{"show":false,"text":"Amazon","size":7},"visual":{"show":true,"type":"image","size":94,"letter":{"text":""},"icon":{"name":"amazon","prefix":"fab","label":"Amazon"},"image":{"url":"https://raw.githubusercontent.com/NaoyaTatetsu/dotfiles/refs/heads/main/chrome/nightTab/images/icon/amazon.webp"},"shadow":{"size":0}}},"accent":{"by":"custom","hsl":{"h":225,"s":16,"l":20},"rgb":{"r":43,"g":47,"b":59}},"color":{"by":"custom","hsl":{"h":0,"s":0,"l":100},"rgb":{"r":255,"g":255,"b":255},"opacity":100},"background":{"show":false,"type":"image","opacity":100,"image":{"url":""},"video":{"url":""}},"border":0,"shape":{"wide":false,"tall":false},"timestamp":1727535692526},{"url":"https://www.ana.co.jp/ja/jp/amc/","display":{"alignment":"center-center","direction":"vertical","order":"visual-name","rotate":0,"translate":{"x":0,"y":0},"gutter":25,"name":{"show":false,"text":"ANA","size":54},"visual":{"show":true,"type":"image","size":107,"letter":{"text":"ANA"},"icon":{"name":"","prefix":"","label":""},"image":{"url":"https://raw.githubusercontent.com/NaoyaTatetsu/dotfiles/4dc398d8b288a11a81d2bedd41e69f59f8573c9f/chrome/nightTab/images/icon/ana.svg"},"shadow":{"size":0}}},"accent":{"by":"custom","hsl":{"h":230,"s":99,"l":43},"rgb":{"r":1,"g":37,"b":218}},"color":{"by":"custom","hsl":{"h":0,"s":0,"l":100},"rgb":{"r":255,"g":255,"b":255},"opacity":100},"background":{"show":false,"type":"image","opacity":100,"image":{"url":""},"video":{"url":""}},"border":0,"shape":{"wide":false,"tall":false},"timestamp":1727535996054},{"url":"https://jp.mercari.com/?utm_source=google&utm_medium=cpc&utm_content=9515292974_1705200361_68063969953_642688006506_kwd-72090618089&utm_campaign=brand&gclid=Cj0KCQjwm66pBhDQARIsALIR2zArSZqBPbqj6EXcqK9JX__B5_qmcs_-wdX7Oveamjq2Xy1epRk52UUaAit6EALw_wcB","display":{"alignment":"center-center","direction":"vertical","order":"visual-name","rotate":0,"translate":{"x":0,"y":0},"gutter":25,"name":{"show":false,"text":"Mercari","size":7},"visual":{"show":true,"type":"image","size":127,"letter":{"text":"Mercari"},"icon":{"name":"question","prefix":"fas","label":"Question"},"image":{"url":"https://github.com/NaoyaTatetsu/dotfiles/blob/main/chrome/nightTab/images/icon/mercari.jpg?raw=true"},"shadow":{"size":0}}},"accent":{"by":"theme","hsl":{"h":0,"s":0,"l":0},"rgb":{"r":0,"g":0,"b":0}},"color":{"by":"custom","hsl":{"h":0,"s":0,"l":100},"rgb":{"r":255,"g":255,"b":255},"opacity":100},"background":{"show":false,"type":"image","opacity":100,"image":{"url":""},"video":{"url":""}},"border":0,"shape":{"wide":false,"tall":false},"timestamp":1727535822541},{"url":"https://www.ubereats.com/jp/feed?ad_id=635559099735&campaign_id=18953302978&diningMode=DELIVERY&gclid=CjwKCAjw0t63BhAUEiwA5xP54cDlr3WjiowBEYodGW2tuD1F_P0O6D4OtupE4PLd-Ha-81OiZhZfTxoCuJoQAvD_BwE&gclsrc=aw.ds&kw=uber%20eats&kwid=kwd-298219684926&lat=35.6518049&lng=139.6722431&mod=pendingRating&placement=&ps=1&referrer=https%3A%2F%2Fwww.google.com%2F&so=https%3A%2F%2Fwww.ubereats.com%2Fjp%3Futm_source%3DAdWords_Brand%26utm_campaign%3DCM2220227-search-google-brand_85_-99_JP-National_e_web_acq_cpc_ja-JP_T1_Generic_BM_uber%2520eats_kwd-298219684926_635559099735_147292412327_b_c%26campaign_id%3D18953302978%26adg_id%3D147292412327%26fi_id%3D%26match%3Db%26net%3Dg%26dev%3Dc%26dev_m%3D%26ad_id%3D635559099735%26cre%3D635559099735%26kwid%3Dkwd-298219684926%26kw%3Duber%2520eats%26placement%3D%26tar%3D%26gclsrc%3Daw.ds%26gad_source%3D1%26gclid%3DCjwKCAjw0t63BhAUEiwA5xP54cDlr3WjiowBEYodGW2tuD1F_P0O6D4OtupE4PLd-Ha-81OiZhZfTxoCuJoQAvD_BwE&utm_campaign=CM2220227-search-google-brand_85_-99_JP-National_e_web_acq_cpc_ja-JP_T1_Generic_BM_uber%20eats_kwd-298219684926_635559099735_147292412327_b_c&utm_source=AdWords_Brand","display":{"alignment":"center-center","direction":"vertical","order":"visual-name","rotate":0,"translate":{"x":0,"y":0},"gutter":25,"name":{"show":false,"text":"Uber Eats","size":7},"visual":{"show":true,"type":"image","size":305,"letter":{"text":"Uber Eats"},"icon":{"name":"","prefix":"","label":"uber"},"image":{"url":"https://github.com/NaoyaTatetsu/dotfiles/blob/main/chrome/nightTab/images/icon/uberEats.png?raw=true"},"shadow":{"size":0}}},"accent":{"by":"custom","hsl":{"h":0,"s":0,"l":0},"rgb":{"r":0,"g":0,"b":0}},"color":{"by":"custom","hsl":{"h":0,"s":0,"l":0},"rgb":{"r":0,"g":0,"b":0},"opacity":100},"background":{"show":false,"type":"image","opacity":100,"image":{"url":""},"video":{"url":""}},"border":0,"shape":{"wide":false,"tall":false},"timestamp":1727535898772},{"url":"https://www.figma.com/files/team/1099191680247847638/drafts?fuid=1099191670098295408","display":{"alignment":"center-center","direction":"vertical","order":"visual-name","rotate":0,"translate":{"x":0,"y":0},"gutter":25,"name":{"show":false,"text":"Figma","size":7},"visual":{"show":true,"type":"image","size":99,"letter":{"text":""},"icon":{"name":"figma","prefix":"fab","label":"Figma"},"image":{"url":"https://raw.githubusercontent.com/NaoyaTatetsu/dotfiles/refs/heads/main/chrome/nightTab/images/icon/figma.webp"},"shadow":{"size":0}}},"accent":{"by":"theme","hsl":{"h":0,"s":0,"l":0},"rgb":{"r":0,"g":0,"b":0}},"color":{"by":"custom","hsl":{"h":0,"s":0,"l":0},"rgb":{"r":0,"g":0,"b":0},"opacity":45},"background":{"show":false,"type":"image","opacity":100,"image":{"url":""},"video":{"url":""}},"border":0,"shape":{"wide":false,"tall":false},"timestamp":1727536063927}]}]}
+{
+  "nightTab": true,
+  "version": "7.5.0",
+  "state": {
+    "language": "system",
+    "layout": {
+      "area": {
+        "header": { "width": 70, "justify": "center" },
+        "bookmark": { "width": 100, "justify": "center" }
+      },
+      "alignment": "center-center",
+      "order": "header-bookmark",
+      "direction": "vertical",
+      "size": 100,
+      "width": 70,
+      "padding": 44,
+      "gutter": 50,
+      "breakpoint": "xl",
+      "scrollbar": "auto",
+      "title": "NewTab",
+      "favicon": "",
+      "overscroll": { "active": false, "unblur": false }
+    },
+    "header": {
+      "item": { "justify": "left" },
+      "greeting": {
+        "show": false,
+        "type": "good",
+        "custom": "",
+        "name": "",
+        "size": 100,
+        "newLine": false
+      },
+      "transitional": {
+        "show": false,
+        "type": "time-and-date",
+        "size": 100,
+        "newLine": false
+      },
+      "clock": {
+        "hour": { "show": true, "display": "number" },
+        "minute": { "show": true, "display": "number" },
+        "second": { "show": false, "display": "number" },
+        "separator": { "show": true, "text": "" },
+        "meridiem": { "show": false },
+        "hour24": { "show": true },
+        "size": 100,
+        "newLine": false
+      },
+      "date": {
+        "day": {
+          "show": false,
+          "display": "word",
+          "weekStart": "monday",
+          "length": "long"
+        },
+        "date": { "show": true, "display": "number", "ordinal": true },
+        "month": {
+          "show": true,
+          "display": "word",
+          "length": "short",
+          "ordinal": true
+        },
+        "year": { "show": false, "display": "number" },
+        "separator": { "show": true, "text": "" },
+        "format": "date-month",
+        "size": 100,
+        "newLine": false
+      },
+      "search": {
+        "show": true,
+        "width": { "by": "auto", "size": 30 },
+        "engine": {
+          "selected": "google",
+          "custom": { "name": "", "url": "", "queryName": "" }
+        },
+        "text": { "justify": "center" },
+        "size": 100,
+        "newLine": false,
+        "newTab": false,
+        "string": "p-jihyo.jp"
+      },
+      "order": ["clock", "date", "search"],
+      "edit": false
+    },
+    "bookmark": {
+      "size": 50,
+      "url": { "show": false },
+      "line": { "show": false },
+      "shadow": { "show": false },
+      "hoverScale": { "show": true },
+      "orientation": "top",
+      "style": "block",
+      "newTab": true,
+      "edit": false,
+      "add": false,
+      "show": true,
+      "item": {}
+    },
+    "group": {
+      "area": { "justify": "left" },
+      "order": "header-body",
+      "name": { "size": 100 },
+      "toolbar": { "size": 80 },
+      "edit": false,
+      "add": false
+    },
+    "toolbar": {
+      "location": "corner",
+      "position": "top-right",
+      "size": 100,
+      "accent": { "show": true },
+      "add": { "show": true },
+      "edit": { "show": true },
+      "newLine": false
+    },
+    "theme": {
+      "color": {
+        "range": { "primary": { "h": 219, "s": 45 } },
+        "contrast": { "start": 8, "end": 83 },
+        "shades": 14
+      },
+      "accent": {
+        "hsl": { "h": 192, "s": 100, "l": 50 },
+        "rgb": { "r": 0, "g": 204, "b": 255 },
+        "random": { "active": false, "style": "light" },
+        "cycle": { "active": false, "speed": 300, "step": 10 }
+      },
+      "font": {
+        "display": { "name": "Dosis", "weight": 300, "style": "normal" },
+        "ui": { "name": "Inria Sans", "weight": 300, "style": "normal" }
+      },
+      "background": {
+        "type": "image",
+        "color": {
+          "rgb": { "r": 0, "g": 0, "b": 0 },
+          "hsl": { "h": 0, "s": 0, "l": 0 }
+        },
+        "gradient": {
+          "angle": 160,
+          "start": {
+            "hsl": { "h": 206, "s": 16, "l": 40 },
+            "rgb": { "r": 86, "g": 104, "b": 118 }
+          },
+          "end": {
+            "hsl": { "h": 219, "s": 28, "l": 12 },
+            "rgb": { "r": 22, "g": 28, "b": 39 }
+          }
+        },
+        "image": {
+          "url": "https://github.com/NaoyaTatetsu/dotfiles/blob/main/chrome/nightTab/images/backgroundImage/twice.jpg?raw=true",
+          "blur": 0,
+          "opacity": 50,
+          "scale": 100,
+          "grayscale": 0,
+          "accent": 0,
+          "vignette": { "opacity": 0, "start": 90, "end": 70 }
+        },
+        "video": {
+          "url": "",
+          "blur": 0,
+          "opacity": 100,
+          "scale": 100,
+          "grayscale": 0,
+          "accent": 0,
+          "vignette": { "opacity": 0, "start": 90, "end": 70 }
+        }
+      },
+      "opacity": { "general": 0 },
+      "layout": {
+        "color": {
+          "by": "custom",
+          "blur": 75,
+          "opacity": 5,
+          "hsl": { "h": 0, "s": 0, "l": 0 },
+          "rgb": { "r": 0, "g": 0, "b": 0 }
+        },
+        "divider": { "size": 0 }
+      },
+      "header": {
+        "color": {
+          "by": "theme",
+          "opacity": 10,
+          "hsl": { "h": 0, "s": 0, "l": 0 },
+          "rgb": { "r": 0, "g": 0, "b": 0 }
+        },
+        "search": { "opacity": 45 }
+      },
+      "bookmark": {
+        "color": {
+          "by": "theme",
+          "opacity": 10,
+          "hsl": { "h": 0, "s": 0, "l": 0 },
+          "rgb": { "r": 0, "g": 0, "b": 0 }
+        },
+        "item": { "border": 0, "opacity": 45 }
+      },
+      "group": { "toolbar": { "opacity": 0 } },
+      "toolbar": { "opacity": 0 },
+      "style": "dark",
+      "radius": 100,
+      "shadow": 100,
+      "shade": { "opacity": 8, "blur": 0 },
+      "custom": { "all": [], "edit": false }
+    },
+    "search": false
+  },
+  "bookmark": [
+    {
+      "name": { "text": "BookMark", "show": true },
+      "collapse": false,
+      "toolbar": {
+        "size": 100,
+        "openAll": { "show": true },
+        "collapse": { "show": true }
+      },
+      "items": [
+        {
+          "url": "https://admin.google.com/AdminHome?hl=ja",
+          "display": {
+            "alignment": "center-center",
+            "direction": "vertical",
+            "order": "visual-name",
+            "rotate": 0,
+            "translate": { "x": 0, "y": 0 },
+            "gutter": 25,
+            "name": { "show": true, "text": "", "size": 5 },
+            "visual": {
+              "show": true,
+              "type": "image",
+              "size": 93,
+              "letter": { "text": "" },
+              "icon": { "name": "", "prefix": "", "label": "" },
+              "image": {
+                "url": "https://raw.githubusercontent.com/NaoyaTatetsu/dotfiles/refs/heads/main/chrome/nightTab/images/icon/googleAdmin.webp"
+              },
+              "shadow": { "size": 0 }
+            }
+          },
+          "accent": {
+            "by": "theme",
+            "hsl": { "h": 0, "s": 0, "l": 0 },
+            "rgb": { "r": 0, "g": 0, "b": 0 }
+          },
+          "color": {
+            "by": "custom",
+            "hsl": { "h": 0, "s": 0, "l": 100 },
+            "rgb": { "r": 255, "g": 255, "b": 255 },
+            "opacity": 100
+          },
+          "background": {
+            "show": false,
+            "type": "image",
+            "opacity": 100,
+            "image": { "url": "" },
+            "video": { "url": "" }
+          },
+          "border": 0,
+          "shape": { "wide": false, "tall": false },
+          "timestamp": 1728050269057
+        },
+        {
+          "url": "https://calendar.google.com/calendar/u/0/r",
+          "display": {
+            "alignment": "center-center",
+            "direction": "vertical",
+            "order": "visual-name",
+            "rotate": 0,
+            "translate": { "x": 0, "y": 0 },
+            "gutter": 25,
+            "name": { "show": true, "text": "", "size": 7 },
+            "visual": {
+              "show": true,
+              "type": "image",
+              "size": 150,
+              "letter": { "text": "" },
+              "icon": { "name": "", "prefix": "", "label": "" },
+              "image": {
+                "url": "https://github.com/NaoyaTatetsu/dotfiles/blob/main/chrome/nightTab/images/icon/googleCalendar.png?raw=true"
+              },
+              "shadow": { "size": 0 }
+            }
+          },
+          "accent": {
+            "by": "theme",
+            "hsl": { "h": 0, "s": 0, "l": 0 },
+            "rgb": { "r": 0, "g": 0, "b": 0 }
+          },
+          "color": {
+            "by": "custom",
+            "hsl": { "h": 0, "s": 0, "l": 100 },
+            "rgb": { "r": 255, "g": 255, "b": 255 },
+            "opacity": 100
+          },
+          "background": {
+            "show": false,
+            "type": "image",
+            "opacity": 100,
+            "image": { "url": "" },
+            "video": { "url": "" }
+          },
+          "border": 0,
+          "shape": { "wide": false, "tall": false },
+          "timestamp": 1728051131962
+        },
+        {
+          "url": "https://drive.google.com/drive/home?dmr=1&ec=wgc-drive-globalnav-goto",
+          "display": {
+            "alignment": "center-center",
+            "direction": "vertical",
+            "order": "visual-name",
+            "rotate": 0,
+            "translate": { "x": 0, "y": 0 },
+            "gutter": 25,
+            "name": { "show": true, "text": "", "size": 7 },
+            "visual": {
+              "show": true,
+              "type": "image",
+              "size": 95,
+              "letter": { "text": "" },
+              "icon": { "name": "", "prefix": "", "label": "" },
+              "image": {
+                "url": "https://github.com/NaoyaTatetsu/dotfiles/blob/main/chrome/nightTab/images/icon/googleDrive.png?raw=true"
+              },
+              "shadow": { "size": 0 }
+            }
+          },
+          "accent": {
+            "by": "theme",
+            "hsl": { "h": 0, "s": 0, "l": 0 },
+            "rgb": { "r": 0, "g": 0, "b": 0 }
+          },
+          "color": {
+            "by": "custom",
+            "hsl": { "h": 0, "s": 0, "l": 100 },
+            "rgb": { "r": 255, "g": 255, "b": 255 },
+            "opacity": 100
+          },
+          "background": {
+            "show": false,
+            "type": "image",
+            "opacity": 100,
+            "image": { "url": "" },
+            "video": { "url": "" }
+          },
+          "border": 0,
+          "shape": { "wide": false, "tall": false },
+          "timestamp": 1728051267561
+        },
+        {
+          "url": "https://mail.google.com/mail/u/0/#inbox",
+          "display": {
+            "alignment": "center-center",
+            "direction": "vertical",
+            "order": "visual-name",
+            "rotate": 0,
+            "translate": { "x": 0, "y": 0 },
+            "gutter": 25,
+            "name": { "show": true, "text": "", "size": 7 },
+            "visual": {
+              "show": true,
+              "type": "image",
+              "size": 134,
+              "letter": { "text": "" },
+              "icon": { "name": "", "prefix": "", "label": "" },
+              "image": {
+                "url": "https://raw.githubusercontent.com/NaoyaTatetsu/dotfiles/refs/heads/main/chrome/nightTab/images/icon/googleMail.webp"
+              },
+              "shadow": { "size": 0 }
+            }
+          },
+          "accent": {
+            "by": "theme",
+            "hsl": { "h": 0, "s": 0, "l": 0 },
+            "rgb": { "r": 0, "g": 0, "b": 0 }
+          },
+          "color": {
+            "by": "custom",
+            "hsl": { "h": 0, "s": 0, "l": 100 },
+            "rgb": { "r": 255, "g": 255, "b": 255 },
+            "opacity": 100
+          },
+          "background": {
+            "show": false,
+            "type": "image",
+            "opacity": 100,
+            "image": { "url": "" },
+            "video": { "url": "" }
+          },
+          "border": 0,
+          "shape": { "wide": false, "tall": false },
+          "timestamp": 1728051364349
+        },
+        {
+          "url": "https://www.amazon.co.jp/?&tag=hydraamazonav-22&ref=pd_sl_7ibq2d37on_e&adgrpid=157529192841&hvpone=&hvptwo=&hvadid=714710030354&hvpos=&hvnetw=g&hvrand=5321128989698208024&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1009307&hvtargid=kwd-10573980&hydadcr=27922_14794663&gad_source=1",
+          "display": {
+            "alignment": "center-center",
+            "direction": "vertical",
+            "order": "visual-name",
+            "rotate": 0,
+            "translate": { "x": 0, "y": 0 },
+            "gutter": 25,
+            "name": { "show": false, "text": "Amazon", "size": 7 },
+            "visual": {
+              "show": true,
+              "type": "image",
+              "size": 94,
+              "letter": { "text": "" },
+              "icon": { "name": "amazon", "prefix": "fab", "label": "Amazon" },
+              "image": {
+                "url": "https://raw.githubusercontent.com/NaoyaTatetsu/dotfiles/refs/heads/main/chrome/nightTab/images/icon/amazon.webp"
+              },
+              "shadow": { "size": 0 }
+            }
+          },
+          "accent": {
+            "by": "custom",
+            "hsl": { "h": 225, "s": 16, "l": 20 },
+            "rgb": { "r": 43, "g": 47, "b": 59 }
+          },
+          "color": {
+            "by": "custom",
+            "hsl": { "h": 0, "s": 0, "l": 100 },
+            "rgb": { "r": 255, "g": 255, "b": 255 },
+            "opacity": 100
+          },
+          "background": {
+            "show": false,
+            "type": "image",
+            "opacity": 100,
+            "image": { "url": "" },
+            "video": { "url": "" }
+          },
+          "border": 0,
+          "shape": { "wide": false, "tall": false },
+          "timestamp": 1727535692526
+        },
+        {
+          "url": "https://www.ana.co.jp/ja/jp/amc/",
+          "display": {
+            "alignment": "center-center",
+            "direction": "vertical",
+            "order": "visual-name",
+            "rotate": 0,
+            "translate": { "x": 0, "y": 0 },
+            "gutter": 25,
+            "name": { "show": false, "text": "ANA", "size": 54 },
+            "visual": {
+              "show": true,
+              "type": "image",
+              "size": 107,
+              "letter": { "text": "ANA" },
+              "icon": { "name": "", "prefix": "", "label": "" },
+              "image": {
+                "url": "https://raw.githubusercontent.com/NaoyaTatetsu/dotfiles/4dc398d8b288a11a81d2bedd41e69f59f8573c9f/chrome/nightTab/images/icon/ana.svg"
+              },
+              "shadow": { "size": 0 }
+            }
+          },
+          "accent": {
+            "by": "custom",
+            "hsl": { "h": 230, "s": 99, "l": 43 },
+            "rgb": { "r": 1, "g": 37, "b": 218 }
+          },
+          "color": {
+            "by": "custom",
+            "hsl": { "h": 0, "s": 0, "l": 100 },
+            "rgb": { "r": 255, "g": 255, "b": 255 },
+            "opacity": 100
+          },
+          "background": {
+            "show": false,
+            "type": "image",
+            "opacity": 100,
+            "image": { "url": "" },
+            "video": { "url": "" }
+          },
+          "border": 0,
+          "shape": { "wide": false, "tall": false },
+          "timestamp": 1727535996054
+        },
+        {
+          "url": "https://jp.mercari.com/?utm_source=google&utm_medium=cpc&utm_content=9515292974_1705200361_68063969953_642688006506_kwd-72090618089&utm_campaign=brand&gclid=Cj0KCQjwm66pBhDQARIsALIR2zArSZqBPbqj6EXcqK9JX__B5_qmcs_-wdX7Oveamjq2Xy1epRk52UUaAit6EALw_wcB",
+          "display": {
+            "alignment": "center-center",
+            "direction": "vertical",
+            "order": "visual-name",
+            "rotate": 0,
+            "translate": { "x": 0, "y": 0 },
+            "gutter": 25,
+            "name": { "show": false, "text": "Mercari", "size": 7 },
+            "visual": {
+              "show": true,
+              "type": "image",
+              "size": 127,
+              "letter": { "text": "Mercari" },
+              "icon": {
+                "name": "question",
+                "prefix": "fas",
+                "label": "Question"
+              },
+              "image": {
+                "url": "https://github.com/NaoyaTatetsu/dotfiles/blob/main/chrome/nightTab/images/icon/mercari.jpg?raw=true"
+              },
+              "shadow": { "size": 0 }
+            }
+          },
+          "accent": {
+            "by": "theme",
+            "hsl": { "h": 0, "s": 0, "l": 0 },
+            "rgb": { "r": 0, "g": 0, "b": 0 }
+          },
+          "color": {
+            "by": "custom",
+            "hsl": { "h": 0, "s": 0, "l": 100 },
+            "rgb": { "r": 255, "g": 255, "b": 255 },
+            "opacity": 100
+          },
+          "background": {
+            "show": false,
+            "type": "image",
+            "opacity": 100,
+            "image": { "url": "" },
+            "video": { "url": "" }
+          },
+          "border": 0,
+          "shape": { "wide": false, "tall": false },
+          "timestamp": 1727535822541
+        },
+        {
+          "url": "https://www.ubereats.com/jp/feed?ad_id=635559099735&campaign_id=18953302978&diningMode=DELIVERY&gclid=CjwKCAjw0t63BhAUEiwA5xP54cDlr3WjiowBEYodGW2tuD1F_P0O6D4OtupE4PLd-Ha-81OiZhZfTxoCuJoQAvD_BwE&gclsrc=aw.ds&kw=uber%20eats&kwid=kwd-298219684926&lat=35.6518049&lng=139.6722431&mod=pendingRating&placement=&ps=1&referrer=https%3A%2F%2Fwww.google.com%2F&so=https%3A%2F%2Fwww.ubereats.com%2Fjp%3Futm_source%3DAdWords_Brand%26utm_campaign%3DCM2220227-search-google-brand_85_-99_JP-National_e_web_acq_cpc_ja-JP_T1_Generic_BM_uber%2520eats_kwd-298219684926_635559099735_147292412327_b_c%26campaign_id%3D18953302978%26adg_id%3D147292412327%26fi_id%3D%26match%3Db%26net%3Dg%26dev%3Dc%26dev_m%3D%26ad_id%3D635559099735%26cre%3D635559099735%26kwid%3Dkwd-298219684926%26kw%3Duber%2520eats%26placement%3D%26tar%3D%26gclsrc%3Daw.ds%26gad_source%3D1%26gclid%3DCjwKCAjw0t63BhAUEiwA5xP54cDlr3WjiowBEYodGW2tuD1F_P0O6D4OtupE4PLd-Ha-81OiZhZfTxoCuJoQAvD_BwE&utm_campaign=CM2220227-search-google-brand_85_-99_JP-National_e_web_acq_cpc_ja-JP_T1_Generic_BM_uber%20eats_kwd-298219684926_635559099735_147292412327_b_c&utm_source=AdWords_Brand",
+          "display": {
+            "alignment": "center-center",
+            "direction": "vertical",
+            "order": "visual-name",
+            "rotate": 0,
+            "translate": { "x": 0, "y": 0 },
+            "gutter": 25,
+            "name": { "show": false, "text": "Uber Eats", "size": 7 },
+            "visual": {
+              "show": true,
+              "type": "image",
+              "size": 305,
+              "letter": { "text": "Uber Eats" },
+              "icon": { "name": "", "prefix": "", "label": "uber" },
+              "image": {
+                "url": "https://github.com/NaoyaTatetsu/dotfiles/blob/main/chrome/nightTab/images/icon/uberEats.png?raw=true"
+              },
+              "shadow": { "size": 0 }
+            }
+          },
+          "accent": {
+            "by": "custom",
+            "hsl": { "h": 0, "s": 0, "l": 0 },
+            "rgb": { "r": 0, "g": 0, "b": 0 }
+          },
+          "color": {
+            "by": "custom",
+            "hsl": { "h": 0, "s": 0, "l": 0 },
+            "rgb": { "r": 0, "g": 0, "b": 0 },
+            "opacity": 100
+          },
+          "background": {
+            "show": false,
+            "type": "image",
+            "opacity": 100,
+            "image": { "url": "" },
+            "video": { "url": "" }
+          },
+          "border": 0,
+          "shape": { "wide": false, "tall": false },
+          "timestamp": 1727535898772
+        },
+        {
+          "url": "https://www.figma.com/files/team/1099191680247847638/drafts?fuid=1099191670098295408",
+          "display": {
+            "alignment": "center-center",
+            "direction": "vertical",
+            "order": "visual-name",
+            "rotate": 0,
+            "translate": { "x": 0, "y": 0 },
+            "gutter": 25,
+            "name": { "show": false, "text": "Figma", "size": 7 },
+            "visual": {
+              "show": true,
+              "type": "image",
+              "size": 99,
+              "letter": { "text": "" },
+              "icon": { "name": "figma", "prefix": "fab", "label": "Figma" },
+              "image": {
+                "url": "https://raw.githubusercontent.com/NaoyaTatetsu/dotfiles/refs/heads/main/chrome/nightTab/images/icon/figma.webp"
+              },
+              "shadow": { "size": 0 }
+            }
+          },
+          "accent": {
+            "by": "theme",
+            "hsl": { "h": 0, "s": 0, "l": 0 },
+            "rgb": { "r": 0, "g": 0, "b": 0 }
+          },
+          "color": {
+            "by": "custom",
+            "hsl": { "h": 0, "s": 0, "l": 0 },
+            "rgb": { "r": 0, "g": 0, "b": 0 },
+            "opacity": 45
+          },
+          "background": {
+            "show": false,
+            "type": "image",
+            "opacity": 100,
+            "image": { "url": "" },
+            "video": { "url": "" }
+          },
+          "border": 0,
+          "shape": { "wide": false, "tall": false },
+          "timestamp": 1727536063927
+        }
+      ]
+    }
+  ]
+}
