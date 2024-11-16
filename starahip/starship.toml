@@ -1,0 +1,43 @@
+format = """
+$os\
+$directory\
+$git_branch\
+$git_status\
+$git_metrics\
+$fill\
+\n$character\
+"""
+
+[directory]
+truncate_to_repo = false
+
+[fill]
+symbol = '─'
+
+[git_status]
+conflicted = '='
+ahead = '⇡${count}'
+behind = '⇣${count}'
+diverged = '⇕'
+up_to_date = '✓'
+untracked = '?'
+stashed = '$'
+modified = '!${count}'
+renamed = '»'
+deleted = '✘'
+
+[git_metrics]
+disabled = false
+
+[os]
+format = "[$symbol]($style)"
+style = 'fg:#1a1b26 bg:#7aa2f7'
+disabled = false
+
+[os.symbols]
+Macos = " " # nf-fa-apple
+Ubuntu = " " # nf-linux-ubuntu
+
+[character]
+success_symbol = "[❯](green)"
+error_symbol = "[❯](red)"
