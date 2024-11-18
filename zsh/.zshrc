@@ -37,3 +37,5 @@ setopt hist_ignore_dups  # not left same command
 # ====================
 # git
 alias g='git'
+# lazygit
+alias lg='lazygit'
