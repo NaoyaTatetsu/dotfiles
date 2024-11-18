@@ -1,5 +1,4 @@
 format = """
-$os\
 $directory\
 $git_branch\
 $git_status\
@@ -12,7 +11,7 @@ $fill\
 truncate_to_repo = false
 
 [fill]
-symbol = '─'
+symbol = '.'
 
 [git_status]
 conflicted = '='
@@ -27,11 +26,6 @@ renamed = '»'
 deleted = '✘'
 
 [git_metrics]
-disabled = false
-
-[os]
-format = "[$symbol]($style)"
-style = 'fg:#1a1b26 bg:#7aa2f7'
 disabled = false
 
 [os.symbols]
