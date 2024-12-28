@@ -36,6 +36,10 @@ setopt hist_ignore_dups  # not left same command
 # ====================
 # alias
 # ====================
+# unix
+alias ls='ls -FG'
+alias la='ls -aFG'
+alias ll='ls -alFG'
 # git
 alias g='git'
 # lazygit
