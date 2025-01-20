@@ -6,11 +6,15 @@ set -e
 # 管理者パスワードを前もって聞いておく
 sudo -v
 
-# 表示件数を8x10にする
-defaults write com.apple.dock springboard-rows -int 8
-defaults write com.apple.dock springboard-columns -int 10
-# Reset LaunchPad (but not regular)
-defaults write com.apple.dock ResetLaunchPad -bool true
+# キーのリピートを環境設定よりも早くする
+defaults write -g InitialKeyRepeat -int 15
+defaults write -g KeyRepeat -int 2
+killall SystemUIServer
+
+# Enable `Tap to click` （タップでクリックを有効にする）------------------------------------------------------------------------
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
 # 設定の反映
 killall Dock
