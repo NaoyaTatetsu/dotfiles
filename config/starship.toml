@@ -2,7 +2,6 @@ format = """
 $directory\
 $git_branch\
 $git_status\
-$git_metrics\
 $fill\
 \n$character\
 """
@@ -13,14 +12,17 @@ truncate_to_repo = false
 [fill]
 symbol = '.'
 
+[git_branch]
+style = "#00fa9a"
+
 [git_status]
-conflicted = '='
+conflicted = '💥'
 ahead = '⇡${count}'
 behind = '⇣${count}'
 diverged = '⇕'
 up_to_date = '✓'
 untracked = '?'
-stashed = '$'
+stashed = '📦'
 modified = '!${count}'
 renamed = '»'
 deleted = '✘'
@@ -29,8 +31,8 @@ deleted = '✘'
 disabled = false
 
 [os.symbols]
-Macos = " " # nf-fa-apple
-Ubuntu = " " # nf-linux-ubuntu
+# Macos = " " # nf-fa-apple
+# Ubuntu = " " # nf-linux-ubuntu
 
 [character]
 success_symbol = "[❯](green)"
