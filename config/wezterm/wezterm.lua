@@ -5,9 +5,9 @@ local config = wezterm.config_builder()
 config.font_size = 13
 
 -- theme
-config.colors = {
-  background = "cyan",
-}
+-- config.colors = {
+--   background = "cyan",
+-- }
 config.color_scheme = "Tokyo Night (Gogh)"
 
 -- window
