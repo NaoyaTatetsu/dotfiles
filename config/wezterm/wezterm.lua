@@ -5,13 +5,10 @@ local config = wezterm.config_builder()
 config.font_size = 13
 
 -- theme
--- config.colors = {
---   background = "cyan",
--- }
 config.color_scheme = "Tokyo Night (Gogh)"
 
 -- window
-config.window_background_opacity = 0.80
+config.window_background_opacity = 0.50
 config.macos_window_background_blur = 20
 
 -- hidden title bar
