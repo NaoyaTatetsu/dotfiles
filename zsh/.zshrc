@@ -12,6 +12,7 @@ FPATH=/opt/homebrew/share/zsh/site-functions:$FPATH
 # asdf
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
 
+
 # ====================
 # autoload
 # ====================
@@ -44,11 +45,20 @@ alias ll='ls -alFG'
 alias g='git'
 # lazygit
 alias lg='lazygit'
+# switch to Apple Silicon
+alias switch-arm64="env /usr/bin/arch -arm64 $(which zsh) --login"
+# switch to Rosetta 2 (Intel)
+alias switch-intel="env /usr/bin/arch -x86_64 $(which zsh) --login"
+
 
 # ====================
-# switch shell
+# functions
 # ====================
-# switch to Apple Silicon
-alias arm64="env /usr/bin/arch -arm64 $(which zsh) --login"
-# switch to Rosetta 2 (Intel)
-alias intel="env /usr/bin/arch -x86_64 $(which zsh) --login"
+# get terminal architecture
+export GET_TERMINAL_ARCHITECTURE=$(
+  if [ "$(arch)" = "arm64" ]; then
+    echo "arm64"
+  else
+    echo "Rosetta (x86_64)"
+  fi
+)

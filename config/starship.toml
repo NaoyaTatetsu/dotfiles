@@ -1,4 +1,5 @@
-format = """
+format = """\
+${custom.arch}\
 $directory\
 $git_branch\
 $git_status\
@@ -8,9 +9,6 @@ $fill\
 
 [directory]
 truncate_to_repo = false
-
-[fill]
-symbol = '.'
 
 [git_branch]
 style = "#00fa9a"
@@ -27,13 +25,10 @@ modified = '!${count}'
 renamed = '»'
 deleted = '✘'
 
-[git_metrics]
-disabled = false
+[custom.arch]
+command = "echo $GET_TERMINAL_ARCHITECTURE"
+when = "true"
+format = "[\\[($output)\\]](purple) "
 
-[os.symbols]
-# Macos = " " # nf-fa-apple
-# Ubuntu = " " # nf-linux-ubuntu
-
-[character]
-success_symbol = "[❯](green)"
-error_symbol = "[❯](red)"
+[fill]
+symbol = '.'
