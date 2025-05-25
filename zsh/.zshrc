@@ -44,3 +44,11 @@ alias ll='ls -alFG'
 alias g='git'
 # lazygit
 alias lg='lazygit'
+
+# ====================
+# switch shell
+# ====================
+# switch to Apple Silicon
+alias arm64="env /usr/bin/arch -arm64 $(which zsh) --login"
+# switch to Rosetta 2 (Intel)
+alias intel="env /usr/bin/arch -x86_64 $(which zsh) --login"
