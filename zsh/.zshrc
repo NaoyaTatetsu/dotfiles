@@ -38,9 +38,12 @@ setopt hist_ignore_dups  # not left same command
 # alias
 # ====================
 # unix
-alias ls='ls -FG'
-alias la='ls -aFG'
-alias ll='ls -alFG'
+alias ls='lsd -FG'
+alias la='lsd -aFG'
+alias ll='lsd -alFG'
+# bat
+alias cat='bat --theme base16'
+alias bat='bat --theme base16'
 # git
 alias g='git'
 # lazygit
