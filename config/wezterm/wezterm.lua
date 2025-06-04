@@ -22,4 +22,14 @@ config.window_background_gradient = {
 }
 config.show_new_tab_button_in_tab_bar = false
 
+-- key
+config.keys = {
+  -- Ctrl+Shift+dで新しいペインを作成(画面を分割)
+  {
+    key = 'd',
+    mods = 'CMD',
+    action = wezterm.action.SplitHorizontal { domain = 'CurrentPaneDomain' },
+  },
+}
+
 return config
