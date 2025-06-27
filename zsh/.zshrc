@@ -9,8 +9,9 @@ source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 FPATH=/opt/homebrew/share/zsh-completions:$FPATH
 FPATH=/opt/homebrew/share/zsh/site-functions:$FPATH
-# asdf
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
+# mise
+unsetopt nomatch
+eval "$(mise activate zsh)"
 
 
 # ====================
