@@ -1,0 +1,5 @@
+[tools]
+java = "openjdk-23.0.2"
+node = "23.6.0"
+pnpm = "9.15.4"
+rust = "1.85.0"
