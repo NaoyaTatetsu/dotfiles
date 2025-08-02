@@ -1,7 +1,6 @@
 tap "homebrew/bundle"
 brew "gh"
 brew "lazygit"
-brew "lefthook"
 brew "lsd"
 brew "mas"
 brew "mise"
