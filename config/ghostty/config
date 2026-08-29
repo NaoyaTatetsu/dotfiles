@@ -1,0 +1,35 @@
+# フォント: ファミリ名は HackGen35（36 ではない）。Regular は既定なので省略。
+font-family = HackGen35 Console
+font-size = 15
+
+# 配色: GitHub Dark Dimmed（GitHub の "soft" dark。公式名は Dark Dimmed）
+theme = GitHub Dark Dimmed
+# ライト/ダーク追従にはしていない。下の palette 8 の上書きが
+# ライトテーマだと逆に薄くなる(白背景で 3.17:1)ため、dark 固定。
+
+# Dark Dimmed は背景が明るい(#22272e)ぶん薄い文字のコントラストが
+# 2.90:1 まで落ちるので、palette 8 だけ持ち上げる（theme より後に
+# 書いた値が勝つ）。#8592a1 で 4.74:1（WCAG AA 超え）。
+palette = 8=#8592a1
+
+# 背景は不透明（透過・ぼかしは無効）
+background-opacity = 1
+
+# ペースト。1キーに寄せると必ず二重になるので、2キーに分ける。
+#
+#   ⌘V  = テキスト
+#         zsh でも Claude Code でも効く。Ghostty が貼るので1回だけ。
+#   ⇧⌘V = 画像（Claude Code 専用）
+#         ESC v (= Alt+V) を送る。~/.claude/keybindings.json の
+#         alt+v -> chat:imagePaste が拾う。
+#
+# なぜ ⌘V に両方を持たせないか: chat:imagePaste は画像専用ではなく
+# テキストも貼る。だから ⌘V に text:\x1bv と paste_from_clipboard を
+# chain すると Claude Code 内でテキストが二重になる。zsh では ^[v が
+# undefined-key なので1回に見え、気づけない。
+#
+# ctrl+v に頼らないこと: Ghostty は ctrl+v を未バインドで素通しするが、
+# keybindings.json に Chat コンテキストを定義すると Claude Code 側の
+# 既定 ctrl+v が上書きされて消える。alt+v を明示的に送るほうが確実。
+keybind = super+v=paste_from_clipboard
+keybind = super+shift+v=text:\x1bv

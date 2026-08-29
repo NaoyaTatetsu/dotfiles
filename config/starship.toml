@@ -11,7 +11,7 @@ $fill\
 truncate_to_repo = false
 
 [git_branch]
-style = "#00fa9a"
+style = "#008000"
 
 [git_status]
 conflicted = '💥'
