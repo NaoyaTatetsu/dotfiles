@@ -1,0 +1,75 @@
+onboarding = false
+[theme]
+name = "terminal"        # 端末エミュレータ(Ghostty)の配色をそのまま継承
+auto_switch = true       # 端末のライト・ダーク切替に追従
+# herdr に github 系テーマは無いため、Ghostty の GitHub Dark Dimmed を
+# 継承させる。dark/light 両方 terminal にして、どちらの経路でも
+# 端末のパレットに解決されるようにする。
+dark_name = "terminal"
+light_name = "terminal"
+
+# theme.custom で上書き可能なフィールド（herdr 0.8.2 バイナリの
+# CustomThemeColors から確認。以前のコメントは不足していた）:
+#   accent, panel_bg, sidebar_bg, active_row_bg, selection_bg,
+#   surface0, surface1, surface_dim, overlay0, overlay1,
+#   text, subtext0, mauve, green, yellow, red, blue, teal, peach
+# ※ active_row_bg = 選択行の背景を直接指定できる専用フィールド。
+#   text を下げる回避策より、こちらで調整するのが本筋。
+#
+# subtext0 / text は上書きをやめて端末から継承させる。
+# 継承値は panel_bg=#22272e, text=#adbac7 で、以前の #e6e9ee より
+# 選択行の背景が落ち着く（コントラスト 7.60:1）。
+[theme.custom]
+mauve = "#9a9a9a"        # 紫トークンをニュートラルなグレーに
+
+# 選択行の背景。既定は #e6e9ee でテーマに追従せず、明色の行文字
+# （overlay0/subtext0/text）が乗ると 1.3〜2.6:1 で判読できなかった。
+# GitHub Dark Dimmed の「浮いた暗い面」に合わせて反転をやめる。
+# パネル #22272e との段差 1.31:1（全幅の帯なので視認できる）。
+active_row_bg = "#333a43"
+
+# 薄い文字。パネル上と選択帯の上の両方で読める値にする。
+#   panel #22272e 上 : 5.37:1
+#   帯 #333a43 上    : 4.11:1  （既定の #e6e9ee 上では 2.61:1 だった）
+overlay0 = "#8f9cab"
+
+[experimental]
+kitty_graphics = true
+
+[ui]
+# herdr UI(ハイライト/ボーダー/ナビ)の基調色を薄いグレーに（旧: 紫）。
+accent = "#a0a0a0"
+# カーソルは外側ターミナル(WezTerm)のグレー指定を使う。
+# drawn だと herdr が catppuccin の紫カーソルを自前描画してしまうため native 固定。
+host_cursor = "native"
+
+[ui.toast]
+delivery = "system"      # エージェントの通知を OS のシステム通知で受け取る
+
+[ui.sidebar.spaces]
+# git情報がないspaceの行が詰まって見えるため、entry間に空行を1行入れて緩和
+row_gap = 1
+
+[[keys.command]]
+key = "prefix+ctrl+l"
+type = "popup"
+command = "lazygit"
+description = "lazygit"
+width = "90%"
+height = "90%"
+
+[[keys.command]]
+key = "prefix+ctrl+h"
+type = "popup"
+command = "hunk show"
+description = "review diff with hunk"
+width = "90%"
+height = "90%"
+
+[[keys.command]]
+key = "prefix+t"
+type = "popup"
+command = "tt"
+description = "task-tui"
+width = "90%"
+height = "90%"
