@@ -39,8 +39,11 @@ kitty_graphics = true
 [ui]
 # herdr UI(ハイライト/ボーダー/ナビ)の基調色を薄いグレーに（旧: 紫）。
 accent = "#a0a0a0"
-# カーソルは外側ターミナル(WezTerm)のグレー指定を使う。
-# drawn だと herdr が catppuccin の紫カーソルを自前描画してしまうため native 固定。
+# カーソルは外側ターミナル(Ghostty)が描くものをそのまま使う。
+# 色は Ghostty のテーマ GitHub Dark Dimmed の cursor-color = #539bf5（青）。
+# ※ WezTerm 時代は Tokyo Night (Gogh) の cursor_bg = #c0caf5 でグレーだった。
+# drawn にすると herdr が自前描画し、既定テーマ catppuccin の紫カーソルになる。
+# macOS では既定の auto も native に解決されるが、意図を明示するため固定する。
 host_cursor = "native"
 
 [ui.toast]
