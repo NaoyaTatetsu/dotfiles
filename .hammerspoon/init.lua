@@ -51,7 +51,8 @@ dragRightToScroll:start()
 --
 -- 垂直タブバーは Chrome ウィンドウ内の AXTabGroup。
 -- ただしタブグループ（「4D CMS」など）も AXTabGroup なので、
--- 「AXSlider（サイズ変更ハンドル）を子に持つ」ことで垂直タブバー本体を判別する。
+-- 「AXSlider（サイズ変更ハンドル）を子に持つ」ことで垂直タブバー本体を判別する
+-- （折りたたみ時は AXSlider が消えるので、開閉ボタンの desc でも判別する）。
 -- 展開/折りたたみボタンはその先頭 AXGroup の先頭 AXButton
 -- （desc が「タブを開く」⇄「タブを閉じる」で切り替わる同一ボタン）。
 --
@@ -62,6 +63,22 @@ local axuielement = require("hs.axuielement")
 
 local PRUNE_ROLES = { AXWebArea = true, AXScrollArea = true, AXMenuBar = true }
 
+-- 折りたたみ時は AXSlider が消えるため、開閉ボタンの desc でも判別する
+local TOGGLE_BUTTON_DESCS = { ["タブを開く"] = true, ["タブを閉じる"] = true }
+
+local function findToggleButton(strip)
+	for _, child in ipairs(strip:attributeValue("AXChildren") or {}) do
+		if child:attributeValue("AXRole") == "AXGroup" then
+			for _, grandchild in ipairs(child:attributeValue("AXChildren") or {}) do
+				if grandchild:attributeValue("AXRole") == "AXButton" then
+					return grandchild
+				end
+			end
+		end
+	end
+	return nil
+end
+
 local function isVerticalTabStrip(el)
 	if el:attributeValue("AXRole") ~= "AXTabGroup" then
 		return false
@@ -71,7 +88,8 @@ local function isVerticalTabStrip(el)
 			return true
 		end
 	end
-	return false
+	local button = findToggleButton(el)
+	return button ~= nil and TOGGLE_BUTTON_DESCS[button:attributeValue("AXDescription")] == true
 end
 
 local function findVerticalTabStrip(el, depth)
@@ -89,19 +107,6 @@ local function findVerticalTabStrip(el, depth)
 			local found = findVerticalTabStrip(child, depth + 1)
 			if found then
 				return found
-			end
-		end
-	end
-	return nil
-end
-
-local function findToggleButton(strip)
-	for _, child in ipairs(strip:attributeValue("AXChildren") or {}) do
-		if child:attributeValue("AXRole") == "AXGroup" then
-			for _, grandchild in ipairs(child:attributeValue("AXChildren") or {}) do
-				if grandchild:attributeValue("AXRole") == "AXButton" then
-					return grandchild
-				end
 			end
 		end
 	end
