@@ -142,9 +142,9 @@ local function toggleVerticalTabs()
 	button:performAction("AXPress")
 end
 
-chromeVerticalTabsHotkey = hs.hotkey.new({ "ctrl" }, "D", toggleVerticalTabs)
+chromeVerticalTabsHotkey = hs.hotkey.new({ "ctrl" }, "A", toggleVerticalTabs)
 
--- Chrome がアクティブなときだけ ctrl+D を奪う（他アプリでは EOF などが通る）
+-- Chrome がアクティブなときだけ ctrl+A を奪う（他アプリでは行頭移動などが通る）
 local function syncChromeHotkey(appName)
 	if appName == "Google Chrome" then
 		chromeVerticalTabsHotkey:enable()
