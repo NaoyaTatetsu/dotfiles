@@ -64,7 +64,20 @@ local axuielement = require("hs.axuielement")
 local PRUNE_ROLES = { AXWebArea = true, AXScrollArea = true, AXMenuBar = true }
 
 -- 折りたたみ時は AXSlider が消えるため、開閉ボタンの desc でも判別する
-local TOGGLE_BUTTON_DESCS = { ["タブを開く"] = true, ["タブを閉じる"] = true }
+-- desc には「タブを開く（⇧⌘L）」のようにショートカット表記が付くので前方一致で判定する
+local TOGGLE_BUTTON_DESC_PREFIXES = { "タブを開く", "タブを閉じる" }
+
+local function isToggleButtonDesc(desc)
+	if type(desc) ~= "string" then
+		return false
+	end
+	for _, prefix in ipairs(TOGGLE_BUTTON_DESC_PREFIXES) do
+		if desc:sub(1, #prefix) == prefix then
+			return true
+		end
+	end
+	return false
+end
 
 local function findToggleButton(strip)
 	for _, child in ipairs(strip:attributeValue("AXChildren") or {}) do
@@ -89,7 +102,7 @@ local function isVerticalTabStrip(el)
 		end
 	end
 	local button = findToggleButton(el)
-	return button ~= nil and TOGGLE_BUTTON_DESCS[button:attributeValue("AXDescription")] == true
+	return button ~= nil and isToggleButtonDesc(button:attributeValue("AXDescription"))
 end
 
 local function findVerticalTabStrip(el, depth)
@@ -164,5 +177,6 @@ local frontApp = hs.application.frontmostApplication()
 syncChromeHotkey(frontApp and frontApp:name())
 
 -- init.lua の変更を検知して自動リロード
-hs.pathwatcher.new(os.getenv("HOME") .. "/.hammerspoon/", hs.reload):start()
+-- グローバルに保持しないと GC で回収されて監視が止まる
+configWatcher = hs.pathwatcher.new(os.getenv("HOME") .. "/.hammerspoon/", hs.reload):start()
 hs.alert.show("Hammerspoon 設定をロードしました")
